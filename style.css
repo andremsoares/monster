@@ -62,6 +62,14 @@ main {
     font-style: bold;
 }
 
+.energy {
+    color: rgb(40, 228, 40);
+    width: 125px;
+    font-size: 40px;
+    font-family: "Teko", sans-serif;
+    font-style: bold;
+}
+
 .container-subtitulo {
     position: relative;
     left: 7vw;
@@ -91,4 +99,8 @@ main {
 
 .autor {
     color: lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Teko", sans-serif;
 }
