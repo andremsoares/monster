@@ -82,11 +82,14 @@ main {
 
 .subtitulo {
     color: lightgrey;
-    font-size: 18px;
+    font-size: 17px;
     font-family: "Teko", sans-serif;
     font-style: light;
     font-weight: 300;
-    width: 150px;
+    width: 120px;
+    position: relative;
+    left: 7vw;
+    top: 47vh;
 }
 
 .seta-esquerda {
@@ -135,7 +138,7 @@ main {
     .br {
         position: absolute;
         right: -3.5vw;
-        top: -3vh;
+        top: -2.5vh;
     }
 
     .lata {
@@ -171,10 +174,10 @@ main {
 
     .subtitulo {
         position: relative;
-        top: -35vh;
+        top: -30vh;
         left: 7vw;
-        font-size: 25px;
-        width: 250px;
+        font-size: 30px;
+        width: 300px;
     }
 
     .background {
