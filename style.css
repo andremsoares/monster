@@ -92,6 +92,14 @@ main {
     top: 47vh;
 }
 
+.monster-logo {
+    display: none;
+}
+
+.monster-texto {
+    display: none;
+}
+
 .seta-esquerda {
     position: relative;
     left: 10vw;
@@ -120,7 +128,7 @@ main {
     }
 
     .promocoes {
-        color: lightgrey;
+        color: white;
         display: flex;
         font-family: "Teko", sans-serif;
         position: absolute;
@@ -138,7 +146,7 @@ main {
     .br {
         position: absolute;
         right: -3.5vw;
-        top: -2.5vh;
+        top: -2.8vh;
     }
 
     .lata {
@@ -173,17 +181,42 @@ main {
     }
 
     .subtitulo {
-        position: relative;
-        top: -30vh;
+        position: absolute;
+        top: 63vh;
         left: 7vw;
         font-size: 30px;
         width: 300px;
     }
 
+    .monster-logo {
+        display: flex;
+        position: absolute;
+        right: 7vw;
+        top: 49vh;
+    }
+
+    .monster-texto {
+        display: flex;
+        color: white;
+        font-size: 30px;
+        font-family: "Teko", sans-serif;
+        font-style: light;
+        font-weight: 300;
+        line-height: 1.0;
+        position: absolute;
+        right: 4vw;
+        top: 40vh;
+        width: 150px;
+        text-align: center;
+    }
+
     .background {
         display: flex;
-        position: relative;
+        position: absolute;
+        top: 8vh;
         left: 28vw;
+        width: 700px;
+        height: auto;
     }
 
     .seta-esquerda {
