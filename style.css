@@ -5,13 +5,15 @@
 }
 
 body {
-    height: 100vh;
-    width: 100vw;
     background-color: black;
 }
 
 .logo-header {
     margin: 14px;
+}
+
+.promocoes {
+    display: none;
 }
 
 .global {
@@ -38,8 +40,7 @@ main {
 }
 
 .background {
-    position: absolute;
-
+    display: none;
 }
 
 .lata {
@@ -52,9 +53,18 @@ main {
     position: absolute;
     left: 7vw;
     top: 35vh;
+    width: 150px;
 }
 
-.titulo {
+.titulo1 {
+    color: white;
+    width: 125px;
+    font-size: 40px;
+    font-family: "Teko", sans-serif;
+    font-style: bold;
+}
+
+.titulo2 {
     color: white;
     width: 125px;
     font-size: 40px;
@@ -63,17 +73,11 @@ main {
 }
 
 .energy {
-    color: rgb(40, 228, 40);
+    color: #6BD41A;
     width: 125px;
     font-size: 40px;
     font-family: "Teko", sans-serif;
     font-style: bold;
-}
-
-.container-subtitulo {
-    position: relative;
-    left: 7vw;
-    top: 48vh;
 }
 
 .subtitulo {
@@ -103,4 +107,94 @@ main {
     align-items: center;
     justify-content: center;
     font-family: "Teko", sans-serif;
+}
+
+@media screen and (min-width: 1440px) and (min-height: 900px) {
+    .logo-header {
+        position: relative;
+        margin: 30px;
+        left: 2vw;
+    }
+
+    .promocoes {
+        color: lightgrey;
+        display: flex;
+        font-family: "Teko", sans-serif;
+        position: absolute;
+        top: 5vh;
+        left: 50vw;
+        font-size: 22px;
+    }
+
+    .global {
+        position: absolute;
+        right: 6vw;
+        top: 5vh;
+    }
+
+    .br {
+        position: absolute;
+        right: -3.5vw;
+        top: -3vh;
+    }
+
+    .lata {
+        position: absolute;
+        left: 47vw;
+        top: 25vh;
+        width: 168px;
+    }
+
+    .container-titulo {
+        position: absolute;
+        top: 30vh;
+        height: 325px;
+        width: 325px;
+    }
+
+    .titulo1 {
+        position: relative;
+        font-size: 90px
+    }
+
+    .titulo2 {
+        position: relative;
+        top: -4vh;
+        font-size: 90px
+    }
+
+    .energy {
+        position: relative;
+        top: -8vh;
+        font-size: 90px
+    }
+
+    .subtitulo {
+        position: relative;
+        top: -35vh;
+        left: 7vw;
+        font-size: 25px;
+        width: 250px;
+    }
+
+    .background {
+        display: flex;
+        position: relative;
+        left: 28vw;
+    }
+
+    .seta-esquerda {
+        position: relative;
+        left: 20vw;
+    }
+
+    .seta-direita {
+        position: relative;
+        right: 20vw;
+    }
+
+    .autor {
+        position: relative;
+        left: 2vw;
+    }
 }
