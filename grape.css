@@ -1,0 +1,237 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(#4f0c9c, #7a39c4, #4f0c9c);
+}
+
+.logo-header {
+    margin: 14px;
+}
+
+.promocoes {
+    display: none;
+}
+
+.global {
+    position: absolute;
+    right: 15vw;
+    top: 5vw;
+}
+
+.texto-header {
+    position: absolute;
+    right: 8vw;
+    top: 5vw;
+}
+
+.br {
+    position: relative;
+    color: white;
+    font-family: "Teko", sans-serif;
+    font-size: 20px;
+}
+
+main {
+    height: 75vh;
+}
+
+.background {
+    display: none;
+}
+
+.lata {
+    position: absolute;
+    top: 17vh;
+    right: 7vw;
+}
+
+.container-titulo {
+    position: absolute;
+    left: 7vw;
+    top: 35vh;
+    width: 150px;
+}
+
+.titulo1 {
+    color: white;
+    width: 125px;
+    font-size: 40px;
+    font-family: "Teko", sans-serif;
+    font-style: bold;
+}
+
+.titulo2 {
+    color: white;
+    width: 125px;
+    font-size: 40px;
+    font-family: "Teko", sans-serif;
+    font-style: bold;
+}
+
+.energy {
+    color: #9c9c9c;
+    width: 125px;
+    font-size: 40px;
+    font-family: "Teko", sans-serif;
+    font-style: bold;
+}
+
+.subtitulo {
+    color: lightgrey;
+    font-size: 17px;
+    font-family: "Teko", sans-serif;
+    font-style: light;
+    font-weight: 300;
+    width: 120px;
+    position: relative;
+    left: 7vw;
+    top: 47vh;
+}
+
+.monster-logo {
+    display: none;
+}
+
+.monster-texto {
+    display: none;
+}
+
+.seta-esquerda {
+    position: relative;
+    left: 10vw;
+    width: 25px;
+}
+
+.seta-direita {
+    position: relative;
+    left: 75vw;
+    width: 25px;
+}
+
+.autor {
+    color: lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Teko", sans-serif;
+}
+
+@media screen and (min-width: 1440px) and (min-height: 900px) {
+    .logo-header {
+        position: relative;
+        margin: 30px;
+        left: 2vw;
+    }
+
+    .promocoes {
+        color: white;
+        display: flex;
+        font-family: "Teko", sans-serif;
+        position: absolute;
+        top: 5vh;
+        left: 50vw;
+        font-size: 22px;
+    }
+
+    .global {
+        position: absolute;
+        right: 6vw;
+        top: 5vh;
+    }
+
+    .br {
+        position: absolute;
+        right: -3.5vw;
+        top: -2.8vh;
+    }
+
+    .lata {
+        position: absolute;
+        left: 47vw;
+        top: 25vh;
+        width: 168px;
+    }
+
+    .container-titulo {
+        position: absolute;
+        top: 30vh;
+        height: 325px;
+        width: 325px;
+    }
+
+    .titulo1 {
+        position: relative;
+        font-size: 90px
+    }
+
+    .titulo2 {
+        position: relative;
+        top: -4vh;
+        font-size: 90px
+    }
+
+    .energy {
+        position: relative;
+        top: -8vh;
+        font-size: 90px
+    }
+
+    .subtitulo {
+        position: absolute;
+        top: 63vh;
+        left: 7vw;
+        font-size: 30px;
+        width: 300px;
+    }
+
+    .monster-logo {
+        display: flex;
+        position: absolute;
+        right: 7vw;
+        top: 49vh;
+        filter: brightness(0) invert(65%);
+    }
+
+    .monster-texto {
+        display: flex;
+        color: white;
+        font-size: 30px;
+        font-family: "Teko", sans-serif;
+        font-style: light;
+        font-weight: 300;
+        line-height: 1.0;
+        position: absolute;
+        right: 4vw;
+        top: 40vh;
+        width: 150px;
+        text-align: center;
+    }
+
+    .background {
+        display: flex;
+        position: absolute;
+        top: 8vh;
+        left: 28vw;
+        width: 700px;
+        height: auto;
+    }
+
+    .seta-esquerda {
+        position: relative;
+        left: 20vw;
+    }
+
+    .seta-direita {
+        position: relative;
+        right: 20vw;
+    }
+
+    .autor {
+        position: relative;
+        left: 2vw;
+    }
+}
